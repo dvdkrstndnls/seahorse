@@ -1,17 +1,26 @@
 # SEAHORSE - A Friend Finder for Stay-At-Home-Dads - Node and Express Servers
 
+###
+after you clone, you'll want to:
+
+npm init
+npm install node
+npm install express
+npm install require
+npm install path
+
 ### Overview
 
-In this activity, you'll build a compatibility-based "StayAtHomeDadFriendFinder" application . This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. 
+This app is compatibility-based "StayAtHomeDadFriendFinder" application . This full-stack site takes in results from users' survey, then compares their answers with those from other users. The app will then display the name, picture, and email of the user with the best overall match. 
 
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+It uses Express to handle routing and is deployed to Heroku.
 
 
 ### Before You Begin
 
-* Check out [this demo version of the site](https://friend-finder-fsf.herokuapp.com/). Use this as a model for how we expect your assignment to look and operate.
+* This app was based on (https://friend-finder-fsf.herokuapp.com/). 
 
-* Create a folder called `Seahorse`. Inside the folder, organize your directories so it matches the following:
+* I created a folder called `Seahorse`. Inside the folder, I organized my directories like so:
 
   ```
   FriendFinder
@@ -36,9 +45,9 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 
 ### Instructions
 
-1. Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
+1. The survey has 11 questions. Each answer is on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
-2. Your `server.js` file should require the basic npm packages we've used in class: `express`, `body-parser` and `path`.
+2. Your `server.js` file requires the basic npm packages: `express`, `body-parser` and `path`.
 
 3. Your `htmlRoutes.js` file should include two routes:
 
@@ -54,8 +63,8 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 
 ```json
 {
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"David",
+  "photo":"https:/example.com/photo.jpg",
   "scores":[
       5,
       1,
