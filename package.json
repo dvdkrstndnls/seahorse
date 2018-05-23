@@ -1,7 +1,7 @@
 {
-  "name": "starwars-express",
+  "name": "seahorse",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Friend-Finder for Stay-at-Home Dads",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.15.0",
