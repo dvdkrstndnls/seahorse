@@ -133,7 +133,9 @@ module.exports = function(app){
 
 		// Here we take the result of the user's survey POST and parse it.
 		var userData 	= req.body;
-		var userName 	= userData.name;
+    var userName 	= userData.name;
+    var userEmail 	= userData.email;
+    var userZip 	= userData.zip;
 		var userPhoto 	= userData.photo;
 		var userScores 	= userData.scores;
 
@@ -157,7 +159,9 @@ module.exports = function(app){
 				if (totalDifference <= bestMatch.friendDifference){
 
 					// Reset the bestMatch to be the new friend. 
-					bestMatch.name = friends[i].name;
+          bestMatch.name = friends[i].name;
+          bestMatch.email = friends[i].email;
+          bestMatch.zip = friends[i].zip;
 					bestMatch.photo = friends[i].photo;
 					bestMatch.friendDifference = totalDifference;
 				}
