@@ -125,7 +125,9 @@ module.exports = function(app){
 		// loop through all of the options 
 		var bestMatch = {
 			name: "",
-			photo: "",
+      email: "",
+      zip: "",
+      photo: "",
 			friendDifference: 1000
 		};
 
