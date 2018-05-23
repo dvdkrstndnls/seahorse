@@ -3,7 +3,7 @@ var friends =
 [
   {
     "name":"David",
-    "email": "karstenisgerman@yahoo.com",
+    "email":"karstenisgerman@yahoo.com",
     "zip": "75206",
     "photo":"https://fat-cat.co.uk/press/_press-articles/david-karsten-daniels/4367.JPG",
     "scores":[
@@ -21,8 +21,8 @@ var friends =
       ]
   },
   {
-    "name": "Brad",
-    "email": "bradpalmer@itroadmap.com",
+    "name":"Brad",
+    "email":"bradpalmer@itroadmap.com",
     "zip": "75228",
     "photo": "https://www.palmerholland.com/Assets/User/Images/Account-Manager/74-tom-lester.jpg",
     "scores": [
@@ -41,7 +41,7 @@ var friends =
     },
   {
     "name":"Kris",
-    "email": "krish@gmail.com",
+    "email":"krish@gmail.com",
     "zip": "75206",
     "photo":"https://static.wixstatic.com/media/707747_84c862f6022741f88ed0fdd151328ac2.jpg",
     "scores":[
