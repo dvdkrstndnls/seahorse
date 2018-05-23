@@ -19,7 +19,7 @@ require("./app/routing/apiRoutes.js")(app)
 
 // Star Wars Characters (DATA)
 // =============================================================
-var characters = [
+var friends = [
   {
     name:"David",
     email: "karstenisgerman@yahoo.com",

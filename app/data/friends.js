@@ -1,5 +1,5 @@
 
-var characters = 
+var friends = 
 [
   {
     "name":"David",
@@ -41,4 +41,4 @@ var characters =
   }
 ]
 
-module.exports = characters;
+module.exports = friends;
