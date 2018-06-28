@@ -1,11 +1,12 @@
 .jumbotron {
     /* The image used */
-    background-image: url("../images/seahorsewitheggs.png");
+    
 
     /* Full height */
     height: 100%; 
 
     /* Center and scale the image nicely */
+    padding-top: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,14 +15,19 @@
 }
 
 .container {
-    background-color: gray;
+    margin-top: 5px;
+    background-color: rgb(196, 196, 196);
     opacity: 0.70;
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
 body {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 90px;
+    
     background-color: black;
-    background-image: url("../images/seahorsewitheggs.png");
     background-image: url("https://media.giphy.com/media/XXGHEeerbpjzO/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
