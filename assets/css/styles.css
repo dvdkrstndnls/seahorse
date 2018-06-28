@@ -21,6 +21,10 @@
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
+#match-img {
+    object-fit: contain;
+}
+
 body {
     margin-top: 5%;
     margin-left: 5%;
