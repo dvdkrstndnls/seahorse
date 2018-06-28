@@ -19,7 +19,7 @@ app.use('/assets', express.static('assets'));
 // look in same directory for app/routing etc.
 require("./app/routing/htmlRoutes.js")(app)
 require("./app/routing/apiRoutes.js")(app)
-
+ 
 // Star Wars Characters (DATA)
 // =============================================================
 var friends = [
