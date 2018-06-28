@@ -9,9 +9,34 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.70;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.container {
+    background-color: gray;
+    opacity: 0.70;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+body {
+    background-color: black;
+    background-image: url("../images/seahorsewitheggs.png");
+    background-image: url("https://media.giphy.com/media/XXGHEeerbpjzO/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: gray;
 }
 
 
-body {
-    background-color: aquamarine;
+
+p {
+    color: red;
 }

@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+<!-- overrides bootstrap here and there -->
+<link rel="stylesheet" href="../../assets/css/styles.css">
 
   <!-- Font Awesome Glyphicons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,38 +20,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"> -->
 
  
 </head>
 
 <body>
 
-
-    <style>
-        .jumbotron {
-        /* .jumbotron { */
-          /* The image used */
-          background-color: black;
-          background-image: url("../../assets/images/dadshangingoutwithkids.jpg");
         
-          /* Full height */
-          height: 100%; 
-        
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        /* background-size: cover; */
-        color:white;
-        }
-          </style>
-        
-
-
   <div class="container">
 
-<div class="jumbotron">
-  <h1><i class="fa fa-mars" aria-hidden="true">
+<!-- <div class="jumbotron">
+  <h1><i class="fa fa-mars" aria-hidden="true"> -->
     
  
   
@@ -322,6 +303,7 @@
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
           $("#match-name").text(data.name);
           $("#match-email").text(data.email);
+          $('#match-email').attr("href", "mailto:" + data.email);
           $("#match-zip").text(data.zip);
           $("#match-img").attr("src", data.photo);
 

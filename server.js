@@ -13,6 +13,9 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+
+app.use('/assets', express.static('assets'));
+
 // look in same directory for app/routing etc.
 require("./app/routing/htmlRoutes.js")(app)
 require("./app/routing/apiRoutes.js")(app)
