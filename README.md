@@ -23,7 +23,7 @@ This full-stack site takes in results from users' survey, then compares their an
 * I created a folder called `Seahorse`. Inside the folder, I organized my directories like so:
 
   ```
-  FriendFinder
+  Seahorse
     - .gitignore
     - app
       - data
@@ -91,3 +91,23 @@ This full-stack site takes in results from users' survey, then compares their an
 
 7. Once the current user's most compatible friend is found, the app displays the result as a modal pop-up.
    * The modal displays name, email, and zipcode of the closest match.
+
+
+
+## Deployment
+
+This was deployed using [Heroku](https://devcenter.heroku.com/articles/git) and you can too - follow the link
+
+## Contributing
+
+Are you a stay at home dad, that would like to make this better? Get in touch!
+
+## Authors
+
+* **David Karsten Daniels** - *Initial work* - [David Karsten Daniels](https://github.com/dvdkrstndnls)
+
+
+## Acknowledgments
+
+* Charles Dunn helped! 
+* Questions were run by my wife, Kate Naumes, ND
